@@ -5,5 +5,7 @@ class Anagram
   end
   
   def match(arrayofwords)
+    theanswer=arrayofwords
+    return theanswer
   end
 end
