@@ -1,10 +1,10 @@
 class Anagram
-  attr_accessor :word
-  def initialize(email)
-  @emails = email
+  attr_accessor :wordx
+  def initialize(word)
+  @word = word
   end
   
-  def parse
+  def match
 
     newarray=@emails.split(/, | /).uniq
     return newarray
