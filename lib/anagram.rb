@@ -8,7 +8,7 @@ class Anagram
     arrayofwords.each { |arrayword| 
     if arrayword.split("").sort==@word.split("").sort
     theanswer=arrayword
-  end
+    end
     return theanswer
   end
 end
