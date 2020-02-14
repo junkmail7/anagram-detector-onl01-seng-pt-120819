@@ -5,8 +5,5 @@ class Anagram
   end
   
   def match(arrayofwords)
-
-    newarray=@emails.split(/, | /).uniq
-    return newarray
   end
 end
