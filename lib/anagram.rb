@@ -1,13 +1,12 @@
 class Anagram
   attr_accessor :word
-  @@all = []
- 
-  def self.all
-    @@all
+  def initialize(email)
+  @emails = email
   end
- 
-  def match
-    self.class.all << self
+  
+  def parse
+
+    newarray=@emails.split(/, | /).uniq
+    return newarray
   end
- 
 end
