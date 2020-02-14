@@ -6,7 +6,7 @@ class Anagram
     @@all
   end
  
-  def save
+  def match
     self.class.all << self
   end
  
