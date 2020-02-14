@@ -11,6 +11,6 @@ class Anagram
     theanswer=arrayword
     end
     }
-    return theanswer
+    return theanswer.join
   end
 end
