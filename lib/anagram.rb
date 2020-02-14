@@ -9,6 +9,7 @@ class Anagram
     if arrayword.split("").sort==@word.split("").sort
     theanswer=arrayword
     end
+    }
     return theanswer
   end
 end
