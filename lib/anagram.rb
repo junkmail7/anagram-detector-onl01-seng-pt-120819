@@ -5,6 +5,7 @@ class Anagram
   end
   
   def match(arrayofwords)
+    theanswer=""
     arrayofwords.each { |arrayword| 
     if arrayword.split("").sort==@word.split("").sort
     theanswer=arrayword
