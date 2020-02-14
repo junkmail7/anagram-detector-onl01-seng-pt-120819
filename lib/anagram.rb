@@ -5,9 +5,10 @@ class Anagram
   end
   
   def match(arrayofwords)
-    arrayofwords.each { ()
-    theanswer=arrayofwords
-    theanswer=[]
+    arrayofwords.each { |arrayword| 
+    if arrayword.split("").sort==@word.split("").sort
+    theanswer=arrayword
+  end
     return theanswer
   end
 end
