@@ -1,5 +1,5 @@
-class Song
-  attr_accessor :name, :artist_name
+class Anagram
+  attr_accessor :word
   @@all = []
  
   def self.all
