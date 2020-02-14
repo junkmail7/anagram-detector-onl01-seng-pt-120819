@@ -4,7 +4,7 @@ class Anagram
   @word = word
   end
   
-  def match
+  def match(arrayofwords)
 
     newarray=@emails.split(/, | /).uniq
     return newarray
