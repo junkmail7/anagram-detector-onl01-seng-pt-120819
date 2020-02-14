@@ -8,9 +8,9 @@ class Anagram
     theanswer=[]
     arrayofwords.each { |arrayword| 
     if arrayword.split("").sort==@word.split("").sort
-    theanswer=arrayword
+    theanswer << arrayword
     end
     }
-    return theanswer.join
+    return theanswer
   end
 end
